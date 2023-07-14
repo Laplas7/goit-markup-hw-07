@@ -1,0 +1,46 @@
+
+.list-btn-port{
+margin-right: 8px;
+
+&:last-child{
+  margin-right: 0;
+}
+}
+
+
+
+
+.list-btn {
+  background-color: var(--background-color-white);
+  display: flex;
+  
+  justify-content: center;
+  margin-bottom: 50px;
+
+  & .btn-static {
+    background-color: var(--decoration-color);
+    color: #F5F4FA;
+    
+  }
+
+  
+& button:hover,
+& button:focus {
+  background-color: var(--decoration-color);
+  color: #ffffff;
+}
+
+& a:visited {
+  background-color: var(--decoration-color);
+}
+
+
+& button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
+}
+}
+
+
+
