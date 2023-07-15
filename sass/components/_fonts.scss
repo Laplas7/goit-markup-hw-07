@@ -1,5 +1,5 @@
 
-.head a {
+.head a ,.log-link{
     font-family: $FontFamRaleweySans;
     font-weight: $FontWeightBold;
     font-size: 26px;
@@ -8,8 +8,18 @@
   
 
 
-  
+    .our-comand ,.our-work{
+    font-weight: $FontWeightBold;
+    font-size: 36px;
+    line-height: 1.16;
+  }
 
+
+    .log-link{
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
 
 
   
@@ -32,17 +42,9 @@
     line-height: 1.71;
   }
   
-  .our-work {
-    font-weight: $FontWeightBold;
-    font-size: 36px;
-    line-height: 1.16;
-  }
+
   
-  .our-comand {
-    font-weight: $FontWeightBold;
-    font-size: 36px;
-    line-height: 1.16;
-  }
+
   
   .mein-list {
     font-weight: $FontWeightBold;
@@ -94,25 +96,15 @@
   
   
   .our-comand-list p {
-    font-weight: $FontWeightRegular;
-    font-size: 16px;
-    line-height: 1.18;
+ 
     color: #757575;
-  }
-  
-  .log-link {
-    font-family: $FontFamRaleweySans;
-    font-weight: $FontWeightBold;
-    font-size: 26px;
-    line-height: 1.19;
-    color: #ffffff;
-    text-decoration: none;
-    
   }
   
 
   
-  .project-list p {
+
+  
+  .project-list p , .our-comand-list p {
     font-weight: $FontWeightRegular;
     font-size: 16px;
     line-height: 1.18;
