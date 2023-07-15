@@ -9,15 +9,47 @@
   --color-button-portfolio: #f5f4fa;
 }
 
-.head a {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+.visualy-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
-a {
-  text-decoration: none;
+.list-btn-port {
+  margin-right: 8px;
+}
+.list-btn-port:last-child {
+  margin-right: 0;
+}
+
+.list-btn {
+  background-color: var(--background-color-white);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.list-btn .btn-static {
+  background-color: var(--decoration-color);
+  color: #F5F4FA;
+}
+.list-btn button:hover, .list-btn button:focus {
+  background-color: var(--decoration-color);
+  color: #ffffff;
+}
+.list-btn a:visited {
+  background-color: var(--decoration-color);
+}
+.list-btn button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.14;
 }
 
 .container {
@@ -32,6 +64,10 @@ a {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
 }
 
 li, p, ul, h1, h2, h3, h4, h5, h6 {
@@ -56,6 +92,24 @@ li, p, ul, h1, h2, h3, h4, h5, h6 {
   padding-right: 15px;
 }
 
+.head a, .log-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.our-comand, .our-work {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.log-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .our-com-list {
   font-weight: 500;
   font-size: 16px;
@@ -71,18 +125,6 @@ li, p, ul, h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.our-work {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-}
-
-.our-comand {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
 }
 
 .mein-list {
@@ -133,38 +175,13 @@ h3 h2 {
 }
 
 .our-comand-list p {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
   color: #757575;
 }
 
-.log-link {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  color: #ffffff;
-  text-decoration: none;
-}
-
-.project-list p {
+.project-list p, .our-comand-list p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-}
-
-.visualy-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
 
 .modal {
@@ -347,36 +364,6 @@ h3 h2 {
   color: var(--decoration-color);
 }
 
-.list-btn-port {
-  margin-right: 8px;
-}
-.list-btn-port:last-child {
-  margin-right: 0;
-}
-
-.list-btn {
-  background-color: var(--background-color-white);
-  display: flex;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.list-btn .btn-static {
-  background-color: var(--decoration-color);
-  color: #F5F4FA;
-}
-.list-btn button:hover, .list-btn button:focus {
-  background-color: var(--decoration-color);
-  color: #ffffff;
-}
-.list-btn a:visited {
-  background-color: var(--decoration-color);
-}
-.list-btn button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.14;
-}
-
 header {
   border-bottom: 1px solid #ececec;
 }
@@ -477,11 +464,6 @@ ul {
   margin-right: auto;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
-  color: #2196f3;
-}
-
 .site-nav-visit {
   color: var(--decoration-color);
   text-decoration: none;
@@ -511,6 +493,11 @@ ul {
   padding-top: 32px;
 }
 
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #2196f3;
+}
+
 .mailto {
   margin-right: 50px;
 }
@@ -519,23 +506,13 @@ li {
   list-style: none;
 }
 
-.contacts {
-  display: flex;
-}
-.contacts a {
-  font-style: normal;
-}
-.contacts a:hover, .contacts a:focus {
+.contacts a:hover,
+.contacts a:focus {
   color: var(--decoration-color);
 }
-.contacts a {
-  color: var(--second-color);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 16px;
-  font-style: normal;
-  line-height: 1.14;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+.contacts {
+  display: flex;
 }
 
 .footer-list {
@@ -579,6 +556,20 @@ li {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+
+.contacts a {
+  color: var(--second-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.14;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-btn a:visited {
+  background-color: var(--decoration-color);
 }
 
 .adress-contc {
@@ -640,7 +631,7 @@ li {
 .hero {
   margin: 0 auto 0 auto;
   width: 1600px;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./imagine/hero-img.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/imagine/hero-img.jpg);
   background-position: center;
   background-size: 1600px 600px;
   background-color: var(--background-color-dark);
