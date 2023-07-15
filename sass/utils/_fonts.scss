@@ -1,54 +1,20 @@
 
 .head a {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    font-family: $FontFamRaleweySans;
+    font-weight: $FontWeightBold;
     font-size: 26px;
     line-height: 1.19;
   }
   
-  a{
-    text-decoration: none;
-  }
+
+
   
-  .container {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: border-box;
-  }
-  
-  li, p, ul, h1, h2 ,h3 , h4, h5, h6{
-    margin: 0;
-    padding: 0;
-  }
-  
-  .flex-con {
-    display: flex;
-  }
-  
-  .flex-con-foot {
-    display: flex;
-    align-items: baseline;
-  }
-  
-  
-  .conteiner-my {
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+
+
+
   
   .our-com-list{
-    font-weight: 500;
+    font-weight: $FontWeightMedium;
     font-size: 16px;
     line-height: 1.17;
     color: #212121;
@@ -61,25 +27,25 @@
   
   
   .mein-list-p {
-    font-weight: 400;
+    font-weight: $FontWeightRegular;
     font-size: 14px;
     line-height: 1.71;
   }
   
   .our-work {
-    font-weight: 700;
+    font-weight: $FontWeightBold;
     font-size: 36px;
     line-height: 1.16;
   }
   
   .our-comand {
-    font-weight: 700;
+    font-weight: $FontWeightBold;
     font-size: 36px;
     line-height: 1.16;
   }
   
   .mein-list {
-    font-weight: 700;
+    font-weight: $FontWeightBold;
     font-size: 14px;
     line-height: 1.16;
     margin-bottom: 10px;
@@ -87,16 +53,16 @@
   
   body {
     background-color: var(--background-color-white);
-    font-family: "Roboto", sans-serif;
+    font-family: $FontFamRobotoSans;
   }
   .list-desk p {
-    font-weight: 400;
+    font-weight: $FontWeightRegular;
     font-size: 14px;
     line-height: 1.71;
   }
   
   .progect-oth {
-    font-weight: 700;
+    font-weight: $FontWeightBold;
     font-size: 18px;
     line-height: 2;
     color: #212121;
@@ -104,7 +70,7 @@
   }
   
   .progect-oth-p {
-    font-weight: 400;
+    font-weight: $FontWeightRegular;
     font-size: 16px;
     line-height: 1.87;
     color: #757575;
@@ -112,14 +78,14 @@
   }
   
   .hero-name h1 {
-    font-weight: 900;
+    font-weight: $FontWeightBlack;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
   }
   
   h3 h2 {
-    font-weight: 700;
+    font-weight: $FontWeightBold;
     font-size: 14px;
     line-height: 1.14;
     text-align: center;
@@ -128,15 +94,15 @@
   
   
   .our-comand-list p {
-    font-weight: 400;
+    font-weight: $FontWeightRegular;
     font-size: 16px;
     line-height: 1.18;
     color: #757575;
   }
   
   .log-link {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
+    font-family: $FontFamRaleweySans;
+    font-weight: $FontWeightBold;
     font-size: 26px;
     line-height: 1.19;
     color: #ffffff;
@@ -147,7 +113,7 @@
 
   
   .project-list p {
-    font-weight: 400;
+    font-weight: $FontWeightRegular;
     font-size: 16px;
     line-height: 1.18;
   }
