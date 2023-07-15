@@ -588,12 +588,6 @@ li {
   margin-top: 16px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
-  fill: var(--background-color-white);
-  background-color: #2196f3;
-}
-
 .social-list-link {
   display: flex;
   align-items: center;
@@ -604,6 +598,10 @@ li {
   width: 44px;
   height: 44px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.social-list-link:hover, .social-list-link:focus {
+  fill: var(--background-color-white);
+  background-color: #2196f3;
 }
 
 .my-h-two,
