@@ -32,7 +32,7 @@ transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .hero {
   margin: 0 auto 0 auto;
     width: 1600px;
-    background-image: linear-gradient(rgba(47,48,58,40%),rgba(47,48,58,40%)),url(/imagine/hero-img.jpg);
+    background-image: linear-gradient(rgba(47,48,58,40%),rgba(47,48,58,40%)),url(../imagine/hero-img.jpg);
     background-position: center;
     background-size: 1600px 600px;
     background-color: var(--background-color-dark);
@@ -121,7 +121,7 @@ li .h3 , li p , .mein-style .width-list{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px 70px;
-  background-image: url(/imagine/antenna.svg);
+  background-image: url(../imagine/antenna.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -134,7 +134,7 @@ li .h3 , li p , .mein-style .width-list{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px 70px;
-  background-image: url(/imagine/clock.svg);
+  background-image: url(../imagine/clock.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -147,7 +147,7 @@ li .h3 , li p , .mein-style .width-list{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px 70px;
-  background-image: url(/imagine/comp.svg);
+  background-image: url(../imagine/comp.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -160,7 +160,7 @@ li .h3 , li p , .mein-style .width-list{
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70px 70px;
-  background-image: url(/imagine/astronaut.svg);
+  background-image: url(../imagine/astronaut.svg);
   width: 270px;
   height: 120px;
   margin-bottom: 30px;

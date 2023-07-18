@@ -1,9 +1,16 @@
-@import './utils/variables';
-@import './utils/visualy-hidden';
+@import './utilits/variables';
+@import './utilits/visually_hidden';
 
 
 @import './base/portfolio';
+@import './base/common';
+@import './base/container';
+
+
 @import './components/fonts';
+@import './components/components_stile_file';
+@import './components/modal_btn';
+@import './components/social_list_link';
 
 
 

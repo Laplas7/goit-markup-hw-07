@@ -5,7 +5,7 @@
     flex-wrap: wrap;
     display: flex;
     box-sizing: border-box;
-    flex-basis: calc((100% - 90px) /3 );
+    flex-basis: calc((100% - 90px) / 3);
 
     & h1 {
         color: var(--primari-color);
@@ -196,7 +196,7 @@
         width: 24px;
         height: 24px;
         background-color: var(--decoration-color);
-        background-image: url(/imagine/telegramm.svg);
+        background-image: url(../imagine/telegramm.svg);
         margin-left: 10px;
         
         }
